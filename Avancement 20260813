@@ -1,0 +1,33 @@
+📊 L'État d'Avancement 13/08/2026
+
+✅ Cerveau Principal (S3) & Animations : 90% OK
+
+Architecture Dual-Core fonctionnelle (les yeux bougent sans jamais freezer). ✅
+
+Portail Wi-Fi Open-Source intégré (LUMI_CONFIGURATION). ✅
+
+Réactions physiques : 
+BME280 pour la température ✅
+MPU6050 pour les secousses ⏳
+
+
+⏳ Le Suivi du Regard (Caméra) : 90% OK
+
+On a abandonné le flux vidéo Wi-Fi pour des raisons de conflits matériels.
+
+Le code "Tracking Pur" (différence de pixels) est écrit, en attente de validation.
+
+
+🔜 La Voix & L'Oreille (Audio I2S) : À FAIRE AUJOURD'HUI
+
+Intégration du haut-parleur et de l'ampli MAX98357A.
+
+Ajout du Text-to-Speech (TTS) pour que Lumi prononce les réponses de Gemini.
+
+
+🔜 L'Âme & La Personnalité : À FAIRE ENSUITE
+
+Le "Header Contextuel" dynamique et la gestion de ses humeurs.
+
+
+🔜 L'intégration de Home-Assistant 
