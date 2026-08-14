@@ -1,39 +1,51 @@
 # Lumi
 🤖 Lumi - Robot Compagnon Connecté & IA
 📝 Description du projet
-Lumi est un robot compagnon de bureau DIY, open-source et interactif. Conçu autour d'un microcontrôleur ESP32-S3, il allie conception 3D sur mesure et intelligence artificielle embarquée. Le projet a pour but de créer un petit assistant autonome, capable d'interagir avec son environnement grâce à la vision, tout en offrant une interface de contrôle locale, sécurisée et facile à configurer.
+Lumi est un petit robot compagnon de bureau DIY et open-source. Plus qu'un simple gadget, Lumi est doté d'une véritable personnalité évolutive. Animé par l'intelligence artificielle (Gemini) et conçu autour d'un écosystème de microcontrôleurs (ESP32-S3 et ESP32-CAM), il interagit de manière organique avec son environnement et son utilisateur.
 
-Lumi est pensé pour la communauté des makers : l'ensemble des pièces du boîtier sont optimisées pour l'impression 3D, et le code est conçu de manière modulaire.
+Capable de voir, de ressentir la température, de réagir au toucher et de discuter de vive voix, Lumi s'intègre également à Home Assistant pour faire le pont entre la robotique de compagnie et la domotique. L'ensemble de son boîtier est conçu sur mesure pour l'impression 3D.
 
-📋 Cahier des Charges
-🛠️ Matériel (Hardware)
-Cerveau : ESP32-S3 (version N16R8) pour disposer d'assez de puissance et de mémoire pour le "mode IA boost".
+📋 Cahier des Charges & Fonctionnalités
+🧠 Intelligence & Personnalité
+Intégration Gemini : Lumi utilise l'IA pour discuter, réfléchir et développer sa propre personnalité au fil des interactions.
 
-Vision : Intégration d'un module caméra pour le traitement d'image local et le streaming.
+Moteur d'Humeur (State Machine) : Le comportement de Lumi n'est pas scripté de manière rigide, mais géré par une boucle d'état (State Machine) qui calcule son humeur selon le temps et ses capteurs.
 
-Châssis : Boîtier 100% sur mesure, pensé pour l'impression 3D, avec une intégration propre de l'électronique.
+Exemples : S'il ne voit personne pendant un long moment, il s'ennuie. S'il est trop secoué, il devient agacé.
 
-Affichage : Intégration d'animations visuelles (comme l'animation de démarrage "Lumi glitch").
+Échange Vocal : Discussion naturelle et interactive avec l'utilisateur via son haut-parleur intégré.
 
-💻 Logiciel & Fonctionnalités (Software)
-Configuration "Privacy First" (Portail Captif) : Lumi intègre un gestionnaire de connexion réseau via une interface web. Les identifiants Wi-Fi ne sont jamais codés en dur dans le firmware, garantissant que le code peut être partagé en open-source sans fuite de données personnelles.
+👁️ La Vue (ESP32-CAM)
+Suivi du Regard (Eye-Tracking) : Utilisation du Motion Tracking en temps réel. La caméra détecte le mouvement et ordonne aux yeux gérés par l'ESP32-S3 de se verrouiller sur la personne.
 
-Accès Local Simplifié : Interface de gestion et de paramétrage accessible facilement sur le réseau local via mDNS (idéalement via [http://lumi.local](http://lumi.local)).
+Reconnaissance Faciale & Animale : Identification des membres du foyer (humains) et des animaux de compagnie (pour faire la différence entre son créateur et le chat de la maison, par exemple).
 
-Retour Vidéo (LUMI_VISION) : Streaming en direct du flux caméra, consultable depuis un navigateur pour surveiller l'environnement du robot.
+🌡️ Perception Thermique (Capteur BME280)
+Lumi ressent son environnement climatique et l'exprime via ses écrans/yeux :
 
-Intelligence Artificielle Embarquée : Modules de reconnaissance visuelle avec pour objectif d'identifier l'utilisateur ainsi que les animaux de compagnie (reconnaissance spécifique du chat).
+S'il fait froid : Animations de grelottement ou apparition de stalactites.
 
-🚀 Roadmap
-[x] Initialisation du code et configuration de l'ESP32-S3.
+S'il fait chaud : Apparition de gouttes de sueur ou yeux lourds de fatigue.
 
-[x] Mise en place de la page web de connexion sécurisée et anonymisée.
+✋ Perception Physique (Capteur MPU6050)
+Grâce à son accéléromètre/gyroscope, Lumi a conscience de son propre corps :
 
-[ ] Stabilisation du flux vidéo et de la résolution réseau mDNS.
+Détection des secousses : Les yeux deviennent désorientés s'il est bousculé.
 
-[ ] Déploiement des modèles IA de reconnaissance (humain/chat).
+Fonction "Tap to Cancel" : Une simple petite tape sur son crâne permet d'annuler son écoute ou d'interrompre une action.
 
-[ ] Publication des fichiers STL (impression 3D) finaux.
+🏠 Écosystème & Connectivité
+Home Assistant : Intégration complète pour que Lumi puisse interagir avec la maison connectée (remontée d'états, déclenchement de scénarios).
 
-🤝 Contribution
-(À venir) Les contributions sont les bienvenues ! Les schémas de câblage et les instructions de flashage seront bientôt ajoutés pour vous permettre de construire votre propre Lumi.
+Portail Captif "Privacy First" : Configuration du réseau local (Wi-Fi) via une interface web propre. Aucun identifiant n'est codé en dur, garantissant un code source sûr à partager.
+
+🛠️ Matériel (Hardware Core)
+Cerveau Principal : ESP32-S3 (N16R8) pour gérer l'IA, le moteur d'humeur et l'affichage.
+
+Module Vision : ESP32-CAM dédié au traitement d'images.
+
+Capteurs : BME280 (Température/Humidité/Pression) et MPU6050 (Mouvements/Chocs).
+
+Audio : Haut-parleur pour le retour vocal.
+
+Châssis : Fichiers STL sur mesure optimisés pour l'impression 3D (FDM/Résine).
