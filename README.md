@@ -4,11 +4,13 @@
 ![alt tag](https://github.com/RaphaelGrj/Lumi-Project/blob/main/images/lumi-render.png)
 
 📝 Description du projet
+
 Lumi est un petit robot compagnon de bureau DIY et open-source. Plus qu'un simple gadget, Lumi est doté d'une véritable personnalité évolutive. Animé par l'intelligence artificielle (Gemini) et conçu autour d'un écosystème de microcontrôleurs (ESP32-S3 et ESP32-CAM), il interagit de manière organique avec son environnement et son utilisateur.
 
 Capable de voir, de ressentir la température, de réagir au toucher et de discuter de vive voix, Lumi s'intègre également à Home Assistant pour faire le pont entre la robotique de compagnie et la domotique. L'ensemble de son boîtier est conçu sur mesure pour l'impression 3D.
 
 📋 Cahier des Charges & Fonctionnalités
+
 🧠 Intelligence & Personnalité
 Intégration Gemini : Lumi utilise l'IA pour discuter, réfléchir et développer sa propre personnalité au fil des interactions.
 
@@ -52,6 +54,8 @@ Capteurs : BME280 (Température/Humidité/Pression) et MPU6050 (Mouvements/Chocs
 Audio : Haut-parleur pour le retour vocal.
 
 Châssis : Fichiers STL sur mesure optimisés pour l'impression 3D (FDM/Résine).
+
+[alt tag](https://github.com/RaphaelGrj/Lumi-Project/blob/main/images/lumi-breadboard.png)
 
 ### 🛒 Bill of Materials (BOM) - Matériel Requis
 
