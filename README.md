@@ -55,7 +55,7 @@ Audio : Haut-parleur pour le retour vocal.
 
 Châssis : Fichiers STL sur mesure optimisés pour l'impression 3D (FDM/Résine).
 
-[alt tag](https://github.com/RaphaelGrj/Lumi-Project/blob/main/images/lumi-breadboard.png)
+![alt tag](https://github.com/RaphaelGrj/Lumi-Project/blob/main/images/lumi-breadboard.png)
 
 ### 🛒 Bill of Materials (BOM) - Matériel Requis
 
