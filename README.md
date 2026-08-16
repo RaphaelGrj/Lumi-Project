@@ -1,7 +1,7 @@
 # R-BOT / Lumi — V1
 🤖 Lumi - Robot Compagnon Connecté & IA
 
-![alt tag](https://github.com/RaphaelGrj/Lumi-Project/blob/main/images/lumi-breadboard.png)
+![alt tag](https://github.com/RaphaelGrj/Lumi-Project/blob/main/images/lumi-render.png)
 
 📝 Description du projet
 Lumi est un petit robot compagnon de bureau DIY et open-source. Plus qu'un simple gadget, Lumi est doté d'une véritable personnalité évolutive. Animé par l'intelligence artificielle (Gemini) et conçu autour d'un écosystème de microcontrôleurs (ESP32-S3 et ESP32-CAM), il interagit de manière organique avec son environnement et son utilisateur.
