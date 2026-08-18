@@ -5,7 +5,7 @@
 
 📝 Description du projet
 
-Lumi est un petit robot compagnon de bureau DIY et open-source. Plus qu'un simple gadget, Lumi est doté d'une véritable personnalité évolutive. Animé par l'intelligence artificielle (Gemini) et conçu autour d'un écosystème de microcontrôleurs (ESP32-S3 et ESP32-CAM), il interagit de manière organique avec son environnement et son utilisateur.
+Lumi est un petit robot compagnon de bureau DIY et open-source. Plus qu'un simple gadget, Lumi est doté d'une véritable personnalité évolutive. Animé par l'intelligence artificielle (Gemini) et conçu autour d'un écosystème de microcontrôleurs (ESP32-S3 et ESP32-CAM), il interagit de manière organique avec son environnement et son utilisateur. Lumi doit suivre la direction artistique du glitch avec des petits effets de glitchs avec des couleurs autour des yeux cyan et rose.
 
 Capable de voir, de ressentir la température, de réagir au toucher et de discuter de vive voix, Lumi s'intègre également à Home Assistant pour faire le pont entre la robotique de compagnie et la domotique. L'ensemble de son boîtier est conçu sur mesure pour l'impression 3D.
 
@@ -14,7 +14,7 @@ Capable de voir, de ressentir la température, de réagir au toucher et de discu
 🧠 Intelligence & Personnalité
 Intégration Gemini : Lumi utilise l'IA pour discuter, réfléchir et développer sa propre personnalité au fil des interactions.
 
-Moteur d'Humeur (State Machine) : Le comportement de Lumi n'est pas scripté de manière rigide, mais géré par une boucle d'état (State Machine) qui calcule son humeur selon le temps et ses capteurs.
+Moteur d'Humeur (State Machine) : Le comportement de Lumi n'est pas scripté de manière rigide, mais géré par une boucle d'état (State Machine) qui calcule son humeur selon le temps et ses capteurs. Lumi est conçu pour être le plus vivant possible, avec de nombreuse réaction, en gardant une fluidité émotive constamment. Lors de l'écoute, nous devons comprendre visuellement qu'il est a l'écoute. 
 
 Exemples : S'il ne voit personne pendant un long moment, il s'ennuie. S'il est trop secoué, il devient agacé.
 
@@ -42,7 +42,7 @@ Fonction "Tap to Cancel" : Une simple petite tape sur son crâne permet d'annule
 🏠 Écosystème & Connectivité
 Home Assistant : Intégration complète pour que Lumi puisse interagir avec la maison connectée (remontée d'états, déclenchement de scénarios).
 
-Portail Captif "Privacy First" : Configuration du réseau local (Wi-Fi) via une interface web propre. Aucun identifiant n'est codé en dur, garantissant un code source sûr à partager.
+Portail Captif "Privacy First" : Configuration du réseau local (Wi-Fi) via une interface web propre. Aucun identifiant n'est codé en dur, garantissant un code source sûr à partager. Un symbole WIFI dans un coin supérieur permet de confirmer que Lumi est connecté à internet 
 
 🛠️ Matériel (Hardware Core)
 Cerveau Principal : ESP32-S3 (N16R8) pour gérer l'IA, le moteur d'humeur et l'affichage.
