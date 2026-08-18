@@ -68,7 +68,7 @@ Voici la liste des composants nécessaires pour assembler Lumi.
 | **Capteurs (Sensors)**| BME280 | Perception thermique : mesure de la température et de l'humidité pour déclencher les animations de confort (grelotte, sueur). |
 | | MPU6050 | Perception physique : Accéléromètre/Gyroscope pour détecter les bousculades et la fonction "Tap to Cancel". |
 | | Microphone I2S (ex: INMP441) | Indispensable pour capturer la voix de l'utilisateur de manière claire et l'envoyer à Gemini. |
-| **Affichage & Audio** | Écrans pour les yeux | (Ex: 2x écrans LCD ronds GC9A01 ou écrans TFT) Pour l'animation du regard et des expressions. |
+| **Affichage & Audio** | Écrans pour les yeux | (Ex: écrans TFT 1,69" 240 × 280 SPI) Pour l'animation du regard et des expressions. |
 | | Haut-parleur (Speaker) | Mini haut-parleur pour la voix de Lumi (idéalement avec un mini ampli I2S comme le MAX98357A pour un son net). |
 | **Alimentation** | Alimentation ou Batterie | Alimentation filaire 5V robuste, ou module de charge (ex: TP4056) + Batterie LiPo si le robot doit être autonome. |
 | **Structure** | Pièces imprimées en 3D | Boîtier sur mesure. Parfaitement réalisable en FDM pour la structure interne robuste, avec possibilité d'utiliser de l'impression résine pour un rendu lisse sur les éléments de façade ou les détails. |
