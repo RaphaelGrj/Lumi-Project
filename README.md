@@ -1,4 +1,4 @@
-# R-BOT / Lumi — V1
+# R-BOT / Lumi — V1 (Not Available - In developpement)
 🤖 Lumi - Robot Compagnon Connecté & IA
 
 ![alt tag](https://github.com/RaphaelGrj/Lumi-Project/blob/main/images/lumi-render.png)
